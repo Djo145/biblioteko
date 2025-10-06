@@ -7,4 +7,4 @@
     - Conversion du pdf clean en texte
     - Essaie de générer le scan propre à partir du raw_scan
 
-pixstral
+    
