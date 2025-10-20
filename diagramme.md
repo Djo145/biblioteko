@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     %% =========================
     %% ACTEURS PRINCIPAUX
@@ -135,3 +136,4 @@ classDiagram
     SC_PassageDomainePublic --> Bibliothecaire
     SC_DiffusionLibre --> Systeme
     SC_DiffusionLibre --> Notification
+```
