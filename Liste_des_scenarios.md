@@ -2,7 +2,7 @@
 
 ## Installer l’application
     Description : Décrit le processus d’installation de l’application sur différents médias
-	
+  
     Acteurs : L’utilisateur, le serveur de mis à disposition de l’application.
 	
     Précondition : Le téléchargement de l’application doit être possible depuis le média (ordinateur ou smartphone)  de l’utilisateur
@@ -277,6 +277,7 @@
     3. Le serveur synchronise cette œuvre sur les espaces partagés des membres.
     4. Une notification informe les utilisateurs de la disponibilité.
     5. L’œuvre devient consultable et téléchargeable depuis leur interface.
+
 
 
 public book

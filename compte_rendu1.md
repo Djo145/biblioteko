@@ -6,7 +6,7 @@ Tâches réalisées le 22/09/2025 :
     - Réflexion sur comment réaliser le programme qui prend en entré un document pdf avec des images de pages de livres et générer le fichier markdown texte avec de la reconnaissance de texte faite par l'IA. Je ne savais pas qu'il fallait faire une API simple puis se connecter avec une clé API, entrer la question à poser avec pour entrée, le fichier pdf.
     - Réalisation du glossaire en identifiant les mots clés dans le texte Projet Ecadré.md 
 
-Pour le glossaire, j'ai tou d'abord, identifié les mots qui correspondent aux concepts, nom propre, action, propriété. Les concepts, nom propre, action, propriété correspondent respectivement au mots surlignés en couleur jaune, rouge, vert, bleu.
+Pour le glossaire, j'ai tout d'abord, identifié les mots qui correspondent aux concepts, nom propre, action, propriété. Les concepts, nom propre, action, propriété correspondent respectivement au mots surlignés en couleur jaune, rouge, vert, bleu.
 Pour la définition de ces mots, ils y étaient déjà présents sur le fichier CoursGL.odt sur git.
 
 Association :Personne morale au sens loi 1901.
