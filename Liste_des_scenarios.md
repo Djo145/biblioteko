@@ -165,6 +165,9 @@
 	Scénarios erreurs :
 	Données, documents, écrans :
 
+
+# Ma partie (diagramme)
+
 ## Consulter une œuvre du domaine public
     Description : Permet à un utilisateur de visualiser et lire une œuvre appartenant au domaine public directement depuis la bibliothèque.
     Acteurs : Utilisateur, serveur de la bibliothèque.
