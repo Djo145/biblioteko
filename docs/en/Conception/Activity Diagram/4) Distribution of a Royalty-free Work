@@ -1,0 +1,13 @@
+```mermaid
+flowchart TD
+    %% Activity Diagram: Distribution of a Royalty-free Work (auto-sync)
+
+    Start["Start"] --> A["Detect work marked rights-free or public domain"]
+    A --> B["Create copy in 'fond_commun/'"]
+    B --> C["Identify subscribed members with auto-sync enabled"]
+    C --> D{"More members to sync?"}
+    D -->|Yes| E["Synchronize copy to member's shared space"]
+    E --> C
+    D -->|No| F["Send notification to members"]
+    F --> End["End"]
+```
