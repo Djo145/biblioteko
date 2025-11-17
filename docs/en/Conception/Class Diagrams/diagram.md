@@ -38,7 +38,7 @@ classDiagram
     class GitRepository {
         +addWork()
         +commit()
-        +listWorks()
+        +listWorks() 
         +modifyMetadata()
     }
     class AI_OCR {

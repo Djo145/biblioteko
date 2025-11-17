@@ -5,6 +5,7 @@ Main orchestrator for converting scanned PDF books to corrected Markdown
 
 import sys
 from pathlib import Path
+from config import FORMATTED_PARTS_DIR
 from pdf_utils.markdown_converter import convert_all_parts_to_markdown, save_final_markdown
 from pdf_utils.pdf_page_splitter import process_all_pdfs_in_folder
 from pdf_utils.pdf_file_splitter import split_pdf
@@ -38,12 +39,13 @@ def main():
         print("\n2. CLEANING AND ENHANCING PAGES...")
         pages_cleaned = clean_all_parts()
         
-        # # Step 3: Split double pages into single pages - and store to formatted_parts
-        # print("\n3. SPLITTING DOUBLE PAGES...")
-        # pages_split = process_all_pdfs_in_folder()       
+        # Step 3: Split double pages into single pages - and store to formatted_parts
+        print("\n3. SPLITTING DOUBLE PAGES...")
+        pages_split = process_all_pdfs_in_folder()       
 
         # Step 3: AI conversion with correction - reads from cleaned_parts (by default) and stores to markdown_output
         print("\n3. AI CONVERSION AND CORRECTION...")
+        #final_markdown = convert_all_parts_to_markdown(FORMATTED_PARTS_DIR)
         final_markdown = convert_all_parts_to_markdown()
         
         # Step 4: Save final output
